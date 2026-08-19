@@ -1,0 +1,30 @@
+{
+  "summary": "Verifiziert: (1) GET /api/ai/orderflow/BTCUSDT liefert live-WS-Daten (connected=true, trades_15m=7913, delta_1m/5m/15m gesetzt, Text enthält 'echte Bitunix-Trades'). (2) POST /api/ai/lessons/reevaluate (admin) liefert status=ok mit checked/removed/adjusted/protected/model – locked Lektion (Trader-Lektion) NIE in removed. (3) Frontend-Flow komplett: KI-Trader-Tab → Zahnrad → Admin-Login → nochmal Zahnrad → KI-Panel öffnet → 'Lernen'-Toggle → Button 'Neu bewerten' (data-testid=ai-lessons-reevaluate-btn) klickt, window.confirm bestätigt, Toast 'Neu bewertet: 0 geprüft, 0 veraltet entfernt, 0 angepasst' erscheint. (4) Regression: 'Eigene Lektion'-Button öffnet Formular korrekt.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "Admin-Gate KI Trader Panel", "issues": ["UX: requireAdmin() speichert die pending action nicht. Nach erfolgreichem Admin-Login muss der User das Zahnrad ein zweites Mal klicken, damit das KI-Panel öffnet. Erwartbar wäre ein automatischer Re-Trigger nach Login."]}
+    ]
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_orderflow_and_lesson_reeval.py"
+  ],
+  "action_items": [
+    "Optional (nicht kritisch): requireAdmin(action) so erweitern, dass action nach erfolgreichem Login automatisch ausgeführt wird – aktuell muss der Trader das Zahnrad zweimal klicken, um das KI-Panel zu öffnen."
+  ],
+  "critical_code_review_comments": [
+    "AITradingPanel.js ist mit 2148 Zeilen deutlich >700 Zeilen – aufsplitten in Sub-Komponenten (LernenTab, TeamTab, LaborTab, StrategienTab) empfohlen.",
+    "reevaluateLessons: Client geht davon aus, dass API immer JSON zurückgibt – bei 500-HTML-Fehlern würde res.json() werfen; try/catch fängt es zwar ab, spezifische Fehlermeldung ginge aber verloren.",
+    "core/auth.py: JWT_SECRET Default 'change-me' – bei fehlender ENV in prod wäre Token trivial fälschbar. Ist ok solange .env gesetzt ist, aber hart failen wäre sauberer."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "100%", "frontend": "100%"},
+  "test_credentials": "Admin / Dean06Greif!/Admin (aus /app/memory/test_credentials.md)",
+  "seed_data_creation": "TEST_reeval_lesson (les_444f193e0b) angelegt via POST /api/ai/lessons und im gleichen Testlauf per DELETE wieder entfernt. Aktueller Lesson-Store-Stand: 0 Lektionen (Trader hat aktuell keine Lektionen gespeichert). Reevaluate lief einmal mit 1 Lektion (Test-Lesson locked=true → LLM assessment bestätigte Schutz, protected=[] weil LLM sie garnicht als veraltet markierte) und einmal mit 0 Lektionen (0 geprüft).",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Beide neuen Features (echter Orderflow + Lern-Reset) funktionieren backend UND frontend. Sonner-Toasts nur via [data-sonner-toast] selektieren, nicht [class*=toast]. Wichtig: nach requireAdmin-Login muss das Zahnrad ein zweites Mal geklickt werden, um das KI-Panel zu öffnen (bekannte UX-Kleinigkeit). Backend Unit-Tests unter tests/test_orderflow_and_lesson_reeval.py sind grün.",
+  "rca of the issue": "Keine Bugs gefunden. Alle geforderten Test-Cases bestanden."
+}

@@ -1,0 +1,186 @@
+
+====================================================================================================
+GESCHLOSSEN (25 Trades)
+====================================================================================================
+
+  BTCUSDT SHORT conf=75 setup=pullback dc=1 lev=50.0 dauer=781min
+    entry=63108.1 isl=63518.30265 tp1=62615.85682 exit=63518.30265 pnl=-19.26$ fees=3.01$ risk=410.20$ result=loss
+    CHART: SL-Dist=0.65% TP1-Dist=0.78% CRV=1.2 | MFE=0.96R MAE=1.08R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=-0.83R | Entry-Pos 60m-Range=0.18
+    KI: Preis bei 63.108 am 15m-Range-Hoch (63.159) mit frischer Wick-Rejection (1 Kerze); 4h-Widerstand 63.134 nah, POC 62.987 als Ziel. Crowded Long + steigende Yields + SafePal-News + M
+    Levels: SL 0,65% (ca. 63.520) liegt klar über 15m-Hoch (63.159) und 4h-Widerstand, deckt 1,5x ATR ab; TP1 0,78% (CRV 1,2) zielt auf 15m-Mitte/POC; T
+
+  DOGEUSDT SHORT conf=70 setup=pullback dc=1 lev=10.0 dauer=824min
+    entry=0.06993 isl=0.07028 tp1=0.068881 exit=0.07028 pnl=-0.62$ fees=0.12$ risk=0.00$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.50% CRV=3.0 | MFE=2.54R MAE=1.11R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=-0.37R | Entry-Pos 60m-Range=0.74
+    KI: Wick‑Rejection an der oberen Range‑Grenze signalisiert potenziellen Abwärtsschub; Pullback‑Setup bestätigt die Ablehnung. ATR moderat, daher konservatives SL.
+    Levels: SL 0,5 % über Einstieg, TP1 1,5 % unter Einstieg – 3:1 Risiko‑Belohnung.
+
+  EURUSD LONG conf=70 setup=pullback dc=0 lev=25.0 dauer=727min
+    entry=1.157274 isl=1.151487 tp1=1.168846 exit=1.157274 pnl=-0.60$ fees=0.60$ risk=0.01$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.00% CRV=2.0 | MFE=0.23R MAE=-0.07R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.32R | Entry-Pos 60m-Range=None
+    KI: Trendaufwärts, enges Range, Pullback zum Support 1.1566 bietet Einstieg mit klarem Stop 0.5 % unter dem Einstieg, TP1 1 % über dem Einstieg und TPF 2 % für vollständiges Ziel.
+    Levels: SL 0.5 % unter dem Einstieg schützt vor Durchbruch des Supports, TP1 1 % über dem Einstieg nutzt die nächste Widerstandszone, TPF 2 % sicher
+
+  GOLD LONG conf=65 setup=trend_follow dc=1 lev=50.0 dauer=648min
+    entry=4432.100098 isl=4409.939597 tp1=4463.124798 exit=4463.577455 pnl=+17.59$ fees=3.61$ risk=22.16$ result=win
+    CHART: SL-Dist=0.50% TP1-Dist=0.70% CRV=1.4 | MFE=-0.73R MAE=2.7R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=-0.55R | Entry-Pos 60m-Range=21.65
+    KI: Marktphase Range mit 1m-Aufwärtstrend. Setup trend_follow Long, SL 0.5% Fee-Wächter, TP Breakout-Ziel 4463 für CRV 1.4.
+    Levels: SL 0.5% aufgrund Fee-Blockade, TP bei Breakout-Ziel über Range-Hoch.
+
+  OIL LONG conf=60 setup=trend_follow dc=1 lev=10.0 dauer=355min
+    entry=82.400002 isl=81.988002 tp1=83.224002 exit=81.988002 pnl=-0.62$ fees=0.12$ risk=0.41$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.00% CRV=2.0 | MFE=-1.24R MAE=3.35R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=-0.34R | Entry-Pos 60m-Range=3.43
+    KI: Öl befindet sich in einem leichten Aufwärtstrend mit einem moderaten Range. Trend‑Follow mit 0,5 % SL und 1 % TP1 bietet ein 2:1 Chance‑Risiko, das die ATR berücksichtigt.
+    Levels: SL knapp unter 82,09 USD, TP1 bei 1 % über dem aktuellen Kurs, tpf bei 1,5 %.
+
+  SILVER LONG conf=70 setup=trend_follow dc=1 lev=66.67 dauer=192min
+    entry=65.108002 isl=64.782462 tp1=65.759082 exit=65.206501 pnl=+0.21$ fees=0.80$ risk=0.33$ result=win
+    CHART: SL-Dist=0.50% TP1-Dist=1.00% CRV=2.0 | MFE=0.77R MAE=1.16R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=True post_move=3.78R | Entry-Pos 60m-Range=0.9
+    KI: Trend‑up, Preis nahe Obergrenze, keine Pullback‑Signale – Trend‑Follow ist passend.
+    Levels: SL 0,5 % hinter dem jüngsten Swing‑Low, TP1 1 % für ein 2:1‑Reward.
+
+  SPYUSDT SHORT conf=75 setup=pullback dc=0 lev=10.0 dauer=602min
+    entry=777.92 isl=781.8096 tp1=769.36288 exit=777.6 pnl=-0.94$ fees=1.20$ risk=3.89$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.10% CRV=2.2 | MFE=0.24R MAE=0.05R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.19R | Entry-Pos 60m-Range=0.95
+    KI: Starke Wick-Rejection an der 15m-Range-Oberkante (778.28) bei extrem hohem Volumen (x2.60). Da range_fade gesperrt ist, nutzen wir das bewährte Pullback-Setup für einen Short-Einst
+    Levels: SL liegt mit 0.50% über dem Fee-Wächter-Limit und dem Range-Hoch; TP1 und TP-Full zielen auf die Range-Mitte und Unterkante bei einem CRV vo
+
+  ADAUSDT SHORT conf=65 setup=pullback dc=1 lev=10.0 dauer=431min
+    entry=0.1769 isl=0.177784 tp1=0.174246 exit=0.177784 pnl=-0.62$ fees=0.12$ risk=0.00$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.50% CRV=3.0 | MFE=2.15R MAE=1.47R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=2.6R | Entry-Pos 60m-Range=0.5
+    KI: Preis an Range‑Hoch, Wick‑Rejection bestätigt Pullback, Trend leicht bullisch, RSI 54.
+    Levels: SL knapp hinter der Wick‑Rejection, TP1 bei 1,5% Ziel, tpf bei 3% für Trailing.
+
+  XRPUSDT LONG conf=70 setup=pullback dc=0 lev=40.0 dauer=366min
+    entry=0.9989 isl=0.993905 tp1=1.013883 exit=1.0 pnl=-0.04$ fees=0.48$ risk=0.00$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.50% CRV=3.0 | MFE=0.96R MAE=-0.08R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.72R | Entry-Pos 60m-Range=-0.27
+    KI: Preis an Range‑Unterkante, Wick‑Rejection bestätigt Pullback, Trend neutral, RSI 42.
+    Levels: SL knapp hinter der Wick‑Rejection, TP1 bei 1,5% Ziel, tpf bei 3% für Trailing.
+
+  BTCUSDT LONG conf=75 setup=liquidity_sweep dc=0 lev=50.0 dauer=445min
+    entry=62959.6 isl=62613.3222 tp1=63652.1556 exit=63100.0 pnl=+5.34$ fees=6.01$ risk=346.28$ result=win
+    CHART: SL-Dist=0.55% TP1-Dist=1.10% CRV=2.0 | MFE=1.24R MAE=-0.06R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.78R | Entry-Pos 60m-Range=-0.09
+    KI: Sweep der Asia-, London- und NY-Session-Tiefs mit einer bullischen Wick-Rejection an der 15m-Unterkante bei 62968.4.
+    Levels: SL liegt unter dem VAL bei 62802.8 und TP1 zielt auf die Range-Mitte bei CRV 2.
+
+  AVAXUSDT SHORT conf=70 setup=pullback dc=1 lev=66.67 dauer=138min
+    entry=6.389 isl=6.420945 tp1=6.293165 exit=6.420945 pnl=-4.14$ fees=0.80$ risk=0.03$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.50% CRV=3.0 | MFE=0.44R MAE=1.47R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=1.66R | Entry-Pos 60m-Range=0.83
+    KI: Wick‑Rejection an der oberen Range‑Grenze signalisiert potenziellen Abwärtsschub; Pullback‑Setup bestätigt die Ablehnung. ATR hoch, daher konservatives SL.
+    Levels: SL 0,5 % über Einstieg, TP1 1,5 % unter Einstieg – 3:1 Risiko‑Belohnung.
+
+  AVAXUSDT SHORT conf=65 setup=pullback dc=1 lev=66.67 dauer=65min
+    entry=6.355 isl=6.386775 tp1=6.259675 exit=6.386775 pnl=-4.14$ fees=0.80$ risk=0.03$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.50% CRV=3.0 | MFE=0.0R MAE=1.29R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=-0.35R | Entry-Pos 60m-Range=0.16
+    KI: Preis an Range‑Hoch, Wick‑Rejection bestätigt Pullback, Trend leicht fallend, RSI 29.
+    Levels: SL knapp hinter der Wick‑Rejection, TP1 bei 1,5% Ziel, tpf bei 3% für Trailing.
+
+  QQQUSDT SHORT conf=65 setup=liquidity_sweep dc=1 lev=55.56 dauer=312min
+    entry=732.05 isl=735.71025 tp1=724.7295 exit=731.67 pnl=-3.78$ fees=6.67$ risk=3.66$ result=loss
+    CHART: SL-Dist=0.50% TP1-Dist=1.00% CRV=2.0 | MFE=0.17R MAE=0.07R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.11R | Entry-Pos 60m-Range=0.67
+    KI: Kurs hat das London- und NY-Session-Hoch bei 732.04 kurzzeitig überschritten (Sweep) und zeigt erste Anzeichen einer Umkehr.
+    Levels: SL knapp über dem Session-High-Sweep, TP1 auf dem Niveau des Volumenclusters.
+
+  SOLUSDT SHORT conf=60 setup=trend_follow dc=1 lev=40.0 dauer=456min
+    entry=75.4 isl=75.8524 tp1=74.4952 exit=75.47 pnl=-8.52$ fees=4.80$ risk=0.45$ result=loss
+    CHART: SL-Dist=0.60% TP1-Dist=1.20% CRV=2.0 | MFE=0.04R MAE=0.64R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.29R | Entry-Pos 60m-Range=0.66
+    KI: Downtrend auf 15m und 1h, Preis nahe der oberen Range-Grenze ohne Abweisung, spricht für fortgesetzten Fall nach unten.
+    Levels: SL liegt knapp über dem jüngsten Hoch der 15m-Range, um einen möglichen Ausbruch nach oben zu invalidieren; TP1 zielt auf das untere Range-E
+
+  POLUSDT SHORT conf=None setup=liquidity_sweep dc=1 lev=50.0 dauer=670min
+    entry=0.07546 isl=0.076064 tp1=0.073558 exit=0.07535 pnl=+1.29$ fees=6.00$ risk=0.00$ result=win
+    CHART: SL-Dist=0.80% TP1-Dist=2.52% CRV=3.1 | MFE=0.56R MAE=0.93R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.43R | Entry-Pos 60m-Range=0.65
+
+  ETHUSDT LONG conf=None setup=pullback dc=1 lev=50.0 dauer=708min
+    entry=1878.93 isl=1860.1407 tp1=1916.5086 exit=1882.1 pnl=+2.43$ fees=6.01$ risk=18.79$ result=win
+    CHART: SL-Dist=1.00% TP1-Dist=2.00% CRV=2.0 | MFE=0.41R MAE=0.16R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.37R | Entry-Pos 60m-Range=0.47
+
+  BNBUSDT LONG conf=None setup=pullback dc=1 lev=62.5 dauer=736min
+    entry=610.92 isl=607.25448 tp1=621.91656 exit=611.16 pnl=-5.05$ fees=7.50$ risk=3.67$ result=loss
+    CHART: SL-Dist=0.60% TP1-Dist=1.80% CRV=3.0 | MFE=0.53R MAE=0.59R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.05R | Entry-Pos 60m-Range=0.26
+
+  OIL LONG conf=None setup=breakout dc=1 lev=5.0 dauer=803min
+    entry=82.410004 isl=82.245184 tp1=82.739644 exit=81.38 pnl=-6.85$ fees=0.60$ risk=0.16$ result=loss
+    CHART: SL-Dist=0.20% TP1-Dist=0.40% CRV=2.0 | MFE=-5.04R MAE=13.17R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=-6.19R | Entry-Pos 60m-Range=1.31
+
+  DOGEUSDT SHORT conf=None setup=pullback dc=1 lev=76.95 dauer=847min
+    entry=0.0701 isl=0.07031 tp1=0.069679 exit=0.06987 pnl=+16.03$ fees=9.22$ risk=0.00$ result=win
+    CHART: SL-Dist=0.30% TP1-Dist=0.60% CRV=2.0 | MFE=1.71R MAE=0.52R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=True post_move=2.81R | Entry-Pos 60m-Range=0.29
+
+  SILVER LONG conf=None setup=pullback dc=1 lev=83.33 dauer=895min
+    entry=64.830002 isl=64.700342 tp1=65.218982 exit=65.02 pnl=+14.41$ fees=10.01$ risk=0.13$ result=win
+    CHART: SL-Dist=0.20% TP1-Dist=0.60% CRV=3.0 | MFE=1.62R MAE=-0.46R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=1.54R | Entry-Pos 60m-Range=-0.89
+
+  GOLD LONG conf=None setup=pullback dc=1 lev=50.0 dauer=895min
+    entry=4432.100098 isl=4423.235897 tp1=4458.692698 exit=4386.15 pnl=-57.81$ fees=5.97$ risk=8.86$ result=loss
+    CHART: SL-Dist=0.20% TP1-Dist=0.60% CRV=3.0 | MFE=-4.96R MAE=5.57R TP1-hit=False SL-hit=True | nach Close: TP1 doch erreicht=False post_move=-4.8R | Entry-Pos 60m-Range=16.03
+
+  XRPUSDT SHORT conf=None setup=trend_follow dc=1 lev=40.0 dauer=1061min
+    entry=1.0048 isl=1.009824 tp1=0.994752 exit=1.0031 pnl=+1.97$ fees=4.80$ risk=0.01$ result=win
+    CHART: SL-Dist=0.50% TP1-Dist=1.00% CRV=2.0 | MFE=0.98R MAE=0.62R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.72R | Entry-Pos 60m-Range=0.71
+
+  POLUSDT SHORT conf=70.0 setup=None dc=0 lev=10.0 dauer=116min
+    entry=0.07548 isl=0.076084 tp1=0.074725 exit=0.07514 pnl=+2.91$ fees=1.20$ risk=0.00$ result=win
+    CHART: SL-Dist=0.80% TP1-Dist=1.00% CRV=1.3 | MFE=0.48R MAE=0.22R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.55R | Entry-Pos 60m-Range=0.69
+    KI: Manuell eröffnet (Trade-Dialog)
+
+  BNBUSDT SHORT conf=None setup=mean_reversion dc=1 lev=79.37 dauer=522min
+    entry=611.93 isl=613.521018 tp1=608.074841 exit=610.735 pnl=+5.98$ fees=9.52$ risk=1.59$ result=win
+    CHART: SL-Dist=0.26% TP1-Dist=0.63% CRV=2.4 | MFE=1.99R MAE=0.58R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=1.13R | Entry-Pos 60m-Range=1.2
+
+  POLUSDT LONG conf=70.0 setup=None dc=0 lev=10.0 dauer=16min
+    entry=0.07546 isl=0.074856 tp1=0.076215 exit=0.07536 pnl=-2.52$ fees=1.20$ risk=0.00$ result=loss
+    CHART: SL-Dist=0.80% TP1-Dist=1.00% CRV=1.3 | MFE=0.2R MAE=0.13R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=False post_move=0.25R | Entry-Pos 60m-Range=0.61
+    KI: Manuell eröffnet (Trade-Dialog)
+
+====================================================================================================
+OFFEN (8 Trades)
+====================================================================================================
+
+  BNBUSDT SHORT conf=65 setup=pullback dc=1 lev=10.0 dauer=1081min
+    entry=607.26 isl=610.2963 tp1=598.1511 exit=None pnl=-0.06$ fees=0.06$ risk=3.04$ result=None
+    CHART: SL-Dist=0.50% TP1-Dist=1.50% CRV=3.0 | MFE=2.06R MAE=0.39R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=None post_move=NoneR | Entry-Pos 60m-Range=1.04
+    KI: Preis an Range‑Hoch, Wick‑Rejection bestätigt Pullback, Trend neutral, RSI 50.
+    Levels: SL knapp hinter der Wick‑Rejection, TP1 bei 1,5% Ziel, tpf bei 3% für Trailing.
+
+  GBPUSD LONG conf=70 setup=pullback dc=1 lev=50.0 dauer=998min
+    entry=1.353583 isl=1.346815 tp1=1.367119 exit=None pnl=-0.30$ fees=0.30$ risk=0.01$ result=None
+    CHART: SL-Dist=0.50% TP1-Dist=1.00% CRV=2.0 | MFE=0.34R MAE=-0.11R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=None post_move=NoneR | Entry-Pos 60m-Range=None
+    KI: Leichter Aufwärtstrend, Range 1.35305–1.35377, Pullback zum Support 1.35305 bietet Einstieg mit Stop 0.5 % unter dem Einstieg, TP1 1 % über dem Einstieg, TPF 2 % für volles Ziel.
+    Levels: SL 0.5 % unter dem Einstieg verhindert Durchbruch des Supports, TP1 1 % über dem Einstieg nutzt die nächste Widerstandszone, TPF 2 % sichert
+
+  USDJPY SHORT conf=70 setup=trend_follow dc=1 lev=50.0 dauer=629min
+    entry=159.285004 isl=160.081429 tp1=158.010724 exit=None pnl=-0.30$ fees=0.30$ risk=0.80$ result=None
+    CHART: SL-Dist=0.50% TP1-Dist=0.80% CRV=1.6 | MFE=0.43R MAE=-0.04R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=None post_move=NoneR | Entry-Pos 60m-Range=None
+    KI: Der Trend ist eindeutig abwärts und der Kurs liegt nahe dem unteren Range‑Boden. Ein Trend‑Follow‑Short mit Pullback‑Bestätigung bietet ein Risiko‑Reward‑Verhältnis von ca. 1:1,6 b
+    Levels: SL 0,5 % hinter Pullback, TP1 0,8 % für 1:1,6 R:R, TPf 1,5 % für 1:3 R:R.
+
+  SPYUSDT SHORT conf=70 setup=trend_follow dc=1 lev=55.56 dauer=576min
+    entry=777.66 isl=781.5483 tp1=769.8834 exit=None pnl=-0.33$ fees=0.33$ risk=3.89$ result=None
+    CHART: SL-Dist=0.50% TP1-Dist=1.00% CRV=2.0 | MFE=0.12R MAE=0.18R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=None post_move=NoneR | Entry-Pos 60m-Range=0.51
+    KI: Trend‑down, Preis im mittleren Bereich, keine Pullback‑Bestätigung – Trend‑Follow (Short) ist angemessen.
+    Levels: SL 0,5 % über dem jüngsten Swing‑High, TP1 1 % für ein 2:1‑Reward.
+
+  DOGEUSDT SHORT conf=70 setup=breakout dc=1 lev=10.0 dauer=130min
+    entry=0.07011 isl=0.070461 tp1=0.069689 exit=None pnl=-0.06$ fees=0.06$ risk=0.00$ result=None
+    CHART: SL-Dist=0.50% TP1-Dist=0.60% CRV=1.2 | MFE=0.0R MAE=0.51R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=None post_move=NoneR | Entry-Pos 60m-Range=0.19
+    KI: Wick‑Rejection oben (0.07029) signalisiert einen Short‑Breakout. Der Trend ist leicht fallend, was die Short‑Richtung unterstützt.
+    Levels: SL knapp über Resistance, TP bei Support 0.07003
+
+  EURUSD SHORT conf=70 setup=mean_reversion dc=1 lev=50.0 dauer=47min
+    entry=1.158883 isl=1.170472 tp1=1.1415 exit=None pnl=-0.30$ fees=0.30$ risk=0.01$ result=None
+    CHART: SL-Dist=1.00% TP1-Dist=1.50% CRV=1.5 | MFE=0.02R MAE=0.03R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=None post_move=NoneR | Entry-Pos 60m-Range=0.33
+    KI: Der Kurs liegt nahe dem oberen Range‑Limit, RSI ist niedrig und es gibt keine Trendbestätigung. Ein Mean‑Reversion‑Short mit Wick‑Rejection an der oberen Grenze bietet ein günstige
+    Levels: SL knapp unter dem Range‑High, TP1 auf dem Range‑Low, TP‑Full auf dem nächsten Widerstand.
+
+  QQQUSDT LONG conf=70 setup=trend_follow dc=1 lev=50.0 dauer=22min
+    entry=734.55 isl=727.2045 tp1=749.241 exit=None pnl=-0.30$ fees=0.30$ risk=7.35$ result=None
+    CHART: SL-Dist=1.00% TP1-Dist=2.00% CRV=2.0 | MFE=0.07R MAE=-0.01R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=None post_move=NoneR | Entry-Pos 60m-Range=0.65
+    KI: QQQUSDT zeigt einen klaren Aufwärtstrend auf 5‑m‑ und 15‑m‑Skalen, der Preis liegt nahe dem oberen Range‑Abschnitt. Kein signifikanter Impuls oder News‑Signal, aber die Trend‑Follo
+    Levels: Stop‑Loss knapp unter dem aktuellen Preis, TP1 in die obere Range, TPf weiter oben für maximalen Gewinn.
+
+  EURUSD LONG conf=75 setup=trend_follow dc=1 lev=50.0 dauer=13min
+    entry=1.158883 isl=1.153088 tp1=1.170472 exit=None pnl=-0.60$ fees=0.60$ risk=0.01$ result=None
+    CHART: SL-Dist=0.50% TP1-Dist=1.00% CRV=2.0 | MFE=0.07R MAE=-0.02R TP1-hit=False SL-hit=False | nach Close: TP1 doch erreicht=None post_move=NoneR | Entry-Pos 60m-Range=0.67
+    KI: Uptrend bestätigt durch 5‑min‑RSI 60 und Preis nahe unterem 5‑min‑Range, was ein Pullback‑Long signalisiert. SL knapp unter dem Pullback, TP1 bei 1 % und TPf bei 2 % sichern ein CR
+    Levels: SL unter dem Pullback, TP1 an 1 % über Entry, TPf an 2 % über Entry.
